@@ -6,11 +6,20 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sourabhpatel358/backend-domination.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Sourabhpatel358/backend-domination/issues"
+  },
+  "homepage": "https://github.com/Sourabhpatel358/backend-domination#readme",
   "dependencies": {
-    "express": "^5.2.1"
+    "express": "^5.2.1",
+    "moongoose": "^0.0.5"
   }
 }
