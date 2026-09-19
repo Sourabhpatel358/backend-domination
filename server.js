@@ -1,7 +1,7 @@
 const app=require("./src/app");
-const connectdb=require("./src/db/db");
-//coz abhi tk humne db ko run nhi kiya tha 
-connectdb();
+const connectDb=require("./src/db/db");
+connectDb();
 app.listen(3000,
-    console.log("server started successfully")
-);
+    console.log("server started running")
+
+)

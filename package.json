@@ -20,6 +20,6 @@
   "homepage": "https://github.com/Sourabhpatel358/backend-domination#readme",
   "dependencies": {
     "express": "^5.2.1",
-    "moongoose": "^0.0.5"
+    "mongoose": "^9.10.1"
   }
 }

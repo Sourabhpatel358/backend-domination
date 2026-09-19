@@ -1,6 +1,6 @@
-const moongoose=require("moongoose")
-async function connectdb(){
-    await moongoose.connect("mongodb+srv://sourabhpatel00098_db_user:9vybarN9pMDqCbZr@backend.g8ixzpm.mongodb.net/damey")
-    console.log("connected to database");
-}
-module.exports=connectdb
+const mongoose=require("mongoose");
+async function connectDb(){
+    await mongoose.connect("mongodb+srv://sourabhpatel00098_db_user:9vybarN9pMDqCbZr@backend.g8ixzpm.mongodb.net/arthar_morgan")
+    console.log("db connected successfully");
+};
+module.exports=connectDb;
